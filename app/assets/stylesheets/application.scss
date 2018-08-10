@@ -2,11 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 $font-family-sans-serif: 'Open Sans', sans-serif;
-
-// $btn-default-color: #b3a394;
-// $btn-default-color:              #333 !default;
-$btn-default-bg: #cdd7d6;
-// $btn-default-border: #ccc !default;
+$tiara-color: #cdd7d6;
+$btn-default-bg: $tiara-color;
+$navbar-default-bg: $tiara-color;
 
 @import "bootstrap";
 @import "font-awesome";
