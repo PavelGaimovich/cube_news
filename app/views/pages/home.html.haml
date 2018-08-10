@@ -1,1 +1,8 @@
-Hello world!
+.row
+  - @news.each do |item|
+    .col-md-4
+      .thumbnail
+        = link_to item[:link] do
+          = image_tag item[:image_url]
+          .caption
+            %p= item[:title]
